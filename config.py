@@ -16,8 +16,8 @@ SHORT_TUT = "https://t.me/ANIME_X_FLEX/19" # shortner tutorial link
 # Bot Configuration
 SESSION = "BotifyX-Botz"
 TOKEN = "" # Bot token
-API_ID = "" # API ID
-API_HASH = "" # API HASH
+API_ID = int(os.getenv("API_ID"))
+API_HASH = os.getenv("API_HASH")
 WORKERS = 5
 
 DB_URI = os.getenv("MONGO_URI")
