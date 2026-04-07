@@ -8,15 +8,15 @@ OWNER_ID = 5673859971
 
 MSG_EFFECT = 5046509860389126442
 
-SHORT_URL = "shrinkme.io" # shortner url 
-SHORT_API = "xxxxxxxxxxx45e6887xxxxxxxxxxx" # shortner API
+SHORT_URL = "" # shortner url 
+SHORT_API = "" # shortner API
 SHORT_TUT = "https://t.me/ANIME_X_FLEX/19" # shortner tutorial link
 
 # Bot Configuration
 SESSION = "BotifyX-Botz"
-TOKEN = "82074727111:xxxxxxxxxxxxxxxxxx" # Bot token
-API_ID = "xxxxxx" # API ID
-API_HASH = "xxxxxxxxxxxxxxxxxx" # API HASH
+TOKEN = "" # Bot token
+API_ID = "" # API ID
+API_HASH = "" # API HASH
 WORKERS = 5
 
 DB_URI = "" # MongoDB URI
