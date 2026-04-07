@@ -20,7 +20,7 @@ API_HASH = "" # API HASH
 WORKERS = 5
 
 DB_URI = "" # MongoDB URI
-DB_NAME = "Vlz-Filestore"
+DB_NAME = "VlzFilestore"
 
 FSUBS = [[-1001931113198, True, 10]] # Force Subscription Channels [channel_id, request_enabled, timer_in_minutes]
 # Database Channel (Primary)
