@@ -20,8 +20,8 @@ API_ID = "" # API ID
 API_HASH = "" # API HASH
 WORKERS = 5
 
-DB_URI = "" # MongoDB URI
-DB_NAME = "VlzFilestore"
+DB_URI = os.getenv("MONGO_URI")
+DB_NAME = os.getenv("DB_NAME")
 
 FSUBS = [[-1001931113198, True, 10]] # Force Subscription Channels [channel_id, request_enabled, timer_in_minutes]
 # Database Channel (Primary)
