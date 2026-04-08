@@ -80,7 +80,7 @@ async def start_command(client: Client, message: Message):
                             InlineKeyboardButton("✨ ᴄʟɪᴄᴋ ʜᴇʀᴇ ✨", url=unlock_link)
                         ],
                         [
-                            InlineKeyboardButton("• ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ •", url="https://t.me/ITSANIMEN")
+                            InlineKeyboardButton("• ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ •", url="https://t.me/aonemarathi")
                         ]
                     ])
                 )
@@ -106,7 +106,7 @@ async def start_command(client: Client, message: Message):
 
             short_photo = client.messages.get("SHORT_PIC", "")
             short_caption = client.messages.get("SHORT_MSG", "")
-            tutorial_link = getattr(client, 'tutorial_link', "https://t.me/ANIME_X_FLEX/19")
+            tutorial_link = getattr(client, 'tutorial_link', "https://t.me/")
 
             await client.send_photo(
                 chat_id=message.chat.id,
@@ -370,7 +370,7 @@ async def request_command(client: Client, message: Message):
         return
 
     if not is_user_premium: 
-        BUTTON_URL = "https://t.me/ITSANIMEN"
+        BUTTON_URL = "https://t.me/aonemarathi"
         reply_markup = InlineKeyboardMarkup([
             [InlineKeyboardButton("💎 Upgrade to Premium", url=BUTTON_URL)]
         ])
@@ -425,7 +425,7 @@ async def my_plan(client: Client, message: Message):
             "🔸 Request: Disabled\n"
             f"💳 Credits: {credits}\n"
             "🔓 Unlock Premium to get more benefits\n"
-            "Contact: @ITSANIMEN"
+            "Contact: @onemarathi"
         )
 
 #===============================================================#
@@ -467,7 +467,7 @@ async def credit_plan(client: Client, message: Message):
         "» 120 credits : ₹220\n"
         "» 240 credits : ₹480</blockquote>\n"
         "━━━━━━━━━━━━━━━━━━━\n"
-        "<blockquote>✦ Contact @ITSANIMEN to Buy Credits</blockquote>"
+        "<blockquote>✦ Contact @aonemarathi to Buy Credits</blockquote>"
     )
 
     buttons = InlineKeyboardMarkup([
