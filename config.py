@@ -11,7 +11,7 @@ MSG_EFFECT = 5046509860389126442
 
 SHORT_URL = "" # shortner url 
 SHORT_API = "" # shortner API
-SHORT_TUT = "https://t.me/ANIME_X_FLEX/19" # shortner tutorial link
+SHORT_TUT = "https://t.me/" # shortner tutorial link
 
 # Bot Configuration
 SESSION = "BotifyX-Botz"
